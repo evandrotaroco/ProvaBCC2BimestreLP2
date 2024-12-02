@@ -15,14 +15,14 @@ export default function Menu(props) {
                     <Nav className="me-auto">
                         <NavDropdown title="Opções" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#" as={Link} to="/mensagem">Mensagens</NavDropdown.Item>
-                            <NavDropdown.Item href="#" as={Link} to="/usuario">Usuarios</NavDropdown.Item>
+                            <NavDropdown.Item href="#" as={Link} to="/usuario">Cadastrar usuários</NavDropdown.Item>
                         </NavDropdown>
-                        {/*<Nav.Link onClick={()=>{
+                        {/* <Nav.Link onClick={()=>{
                             setUsuario({
                                 "usuario":"",
                                 "logado": false
                             });
-                        }}>Sair</Nav.Link> */}
+                        }}>Sair</Nav.Link>*/}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -6,7 +6,7 @@ export default function Pagina(props){
     return(
         <div>
             <Container>
-           <Cabecalho titulo="Sistema de Mensagens Prova LP2"/>
+           <Cabecalho titulo="Sistema de controle gerencial"/>
             <Menu/>
             {
                 props.children

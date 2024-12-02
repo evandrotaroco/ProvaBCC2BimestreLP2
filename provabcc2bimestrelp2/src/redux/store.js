@@ -1,11 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import usuarioReducer from "./usuarioReducer";
-import mensagemReducer from "./mensagemReducer";
+import mensagemReducer from "./mensagemReducer.js";
+import usuarioReducer from "./usuarioReducer.js";
 
 const store = configureStore({
     reducer:{
-        'usuario':usuarioReducer,
-        'mensagem':mensagemReducer
+        'mensagem':mensagemReducer,
+        'usuario':usuarioReducer
     }
 });
 
